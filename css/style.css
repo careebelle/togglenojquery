@@ -27,8 +27,8 @@ body {
 }
 
 .menu.active span i:nth-child(1) {
-  -webkit-transform: rotate(-45deg) translateX(50%);
-          transform: rotate(-45deg) translateX(50%);
+  -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+          transform: rotate(-45deg) translate(-50%, -50%);
   top: 50%;
 }
 
@@ -38,8 +38,8 @@ body {
   opacity: 0;
 }
 .menu.active span i:nth-child(3) {
-  -webkit-transform: rotate(45deg) translateX(-50%);
-          transform: rotate(45deg) translateX(-50%);
+  -webkit-transform: rotate(45deg) translate(-50%,-50%);
+          transform: rotate(45deg) translate(-50%,-50%);
   top: 50%;
 }
 .menu span {
