@@ -4,6 +4,7 @@
 });*/
 
 
+
 //Rewritten without jQuery
 var element = document.getElementsByClassName('menu')[0];
 var trigger = document.getElementsByClassName('toggle')[0];
