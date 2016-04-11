@@ -8,7 +8,7 @@
 var element = document.getElementsByClassName('menu')[0];
 var trigger = document.getElementsByClassName('toggle')[0];
 
-trigger.addEventListener('click', function(e) {
-    e.preventDefault();
+trigger.addEventListener('click', function(menuToggle) {
+    menuToggle.preventDefault();
     element.classList.toggle('active');
 });
